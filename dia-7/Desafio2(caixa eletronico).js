@@ -27,6 +27,7 @@ do{
     if (valor<0){
         console.log('Valor invadlido')
     }else if (operacao =='S' && valor > saldo){   
+        console.log('Saldo insuficiente. A transação não foi realizada')
     }else if (operacao='S') {
         console.log(`Olá, ${nome} (${cpf}), seu saldo atual é R$${saldo}.`)
         saldo -= valor
@@ -47,7 +48,7 @@ do{
         console.log(`Transação realizada com sucesso. Seu saldo atual é R$${saldo}`)
     }
 
-    const opcao = prompt('Deseja continuar? (1 para continuar, 2 para parar')
+    let opcao = prompt('Deseja continuar? (1 para continuar, 2 para parar')
     if (opcao === '1') {
         continuar = true 
     }else if (opcao === '2'){
