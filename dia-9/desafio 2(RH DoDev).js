@@ -1,3 +1,11 @@
+/*Imagine que você trabalha num banco e sua missão é fazer um algoritmo para prever o aumento de salário de seus clientes.
+1 - Peça para seu cliente informar seu nome, idade e salário atual e exiba essas informações em tela.
+2 - Peça para que seu cliente confirme as informações, se ele informar que digitou errado, peça para colocar TODAS as informações novamente, repita as perguntas até o usuário informar que digitou as informações corretamente.
+3 - Faça a previsão do salário dele para os próximos 10 anos considerando que:
+    - O cliente recebe anualmente aumento salarial. 
+    - Sabe-se que: no primeiro ano, ele receberá um aumento de 1,5%, sobre o seu salário atual; A partir do segundo ano, os aumentos salariais sempre corresponderam ao dobro do percentual do ano anterior. Apresente todos os valores com o ano correspondente. Ex: 2024 - R$1600.
+*/
+
 confirmar = 'errado'
 while(confirmar != "correto"){
     console.clear()
